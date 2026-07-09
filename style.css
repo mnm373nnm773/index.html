@@ -10,11 +10,12 @@ top:0;
 
 .chou{
 width:100px;
+transition: all 1s
 }
 
 #bt0{
 left:100px;
-top:200px;
+top:100px;
 }
 
 #bt1{
@@ -27,15 +28,26 @@ left:500px;
 top:250px;
 }
 
+.foo{
+width:40px;
+left:500px;
+top:250px;
+transition: all 0.3s
+}
+
+#back1{
+ pointer-events: none;
+}
+
 #message{
-position:absolute;
-z-index: 1;
+position: absolute;
 width:400px;
-height:100px;
+height:80px;
 left:20px;
 top:20px;
 background-color:rgb(255,255,255,0.6);
-font-size:25px;
-color:red;
-padding:20px;
+font-size:22px;
+color: red;
+padding: 20px;
+pointer-events: none;
 }
